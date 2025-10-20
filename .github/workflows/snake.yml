@@ -1,33 +1,44 @@
-name: Generate GitHub Contribution Snake
+name: Generate Snake and Push
 
+# Executa sempre que houver push na branch main
 on:
-  schedule:
-    - cron: "0 0 * * 0" # gera toda semana (domingo, meia-noite)
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
-  generate-snake:
+  build-and-push:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Create output directory
-        run: mkdir -p output
-
-      - name: Generate snake animation
-        uses: Platane/snk@v3
+      # 1️⃣ Faz checkout do repositório
+      - name: Checkout do código
+        uses: actions/checkout@v3
         with:
-          github_user_name: sereno766
-          outputs: |
-            output/github-contribution-grid-snake.svg
-            output/github-contribution-grid-snake-dark.svg
+          persist-credentials: true  # Permite o push de volta
 
-      - name: Commit & push the generated files
-        uses: EndBug/add-and-commit@v9
+      # 2️⃣ Configura Python (se necessário para seu script)
+      - name: Configurar Python
+        uses: actions/setup-python@v4
         with:
-          author_name: GitHub Actions
-          author_email: actions@github.com
-          message: "Generated snake animation 🐍"
-          add: "output/*.svg"
-          push: true
+          python-version: "3.x"
+
+      # 3️⃣ Instala dependências (opcional, se seu script precisar)
+      - name: Instalar dependências
+        run: |
+          pip install -r requirements.txt || echo "Sem requirements.txt"
+
+      # 4️⃣ Rodar o script generate-snake
+      - name: Rodar generate-snake
+        run: |
+          chmod +x ./generate-snake.sh
+          ./generate-snake.sh
+
+      # 5️⃣ Commit e push das alterações
+      - name: Commit e push das mudanças
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Atualização automática do snake"
+          git push
