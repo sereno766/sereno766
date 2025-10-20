@@ -1,32 +1,37 @@
 name: Generate Snake and Push
 
-# Executa sempre que houver push na branch main
 on:
   push:
     branches:
       - main
+  workflow_dispatch:  # Permite execução manual
 
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
+    # Adicione estas permissões
+    permissions:
+      contents: write
 
     steps:
       # 1️⃣ Faz checkout do repositório
       - name: Checkout do código
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          persist-credentials: true  # Permite o push de volta
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 2️⃣ Configura Python (se necessário para seu script)
+      # 2️⃣ Configura Python
       - name: Configurar Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
 
-      # 3️⃣ Instala dependências (opcional, se seu script precisar)
+      # 3️⃣ Instala dependências
       - name: Instalar dependências
         run: |
-          pip install -r requirements.txt || echo "Sem requirements.txt"
+          if [ -f "requirements.txt" ]; then
+            pip install -r requirements.txt
+          fi
 
       # 4️⃣ Rodar o script generate-snake
       - name: Rodar generate-snake
@@ -34,11 +39,17 @@ jobs:
           chmod +x ./generate-snake.sh
           ./generate-snake.sh
 
-      # 5️⃣ Commit e push das alterações
+      # 5️⃣ Commit e push das alterações COM [skip ci]
       - name: Commit e push das mudanças
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git diff-index --quiet HEAD || git commit -m "Atualização automática do snake"
-          git push
+          
+          # Verifica se há mudanças antes de commitar
+          if git diff-index --quiet HEAD; then
+            echo "Nenhuma mudança detectada."
+          else
+            git commit -m "🐍 Atualização automática do snake [skip ci]"
+            git push
+          fi
