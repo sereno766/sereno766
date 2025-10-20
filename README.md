@@ -58,16 +58,11 @@
   </a>
 </div>
 
-###
 
-<br clear="both" />
+### 🐍 Snake animation
 
-<!-- Contribution snake (dark / light) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sereno766/sereno766/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sereno766/sereno766/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/sereno766/sereno766/output/github-contribution-grid-snake.svg">
-</picture>
+![snake gif](https://raw.githubusercontent.com/sereno766/sereno766/output/github-contribution-grid-snake.svg)
+
 
 ###
 
@@ -77,3 +72,4 @@
 <div>
   <img style="width:100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&theme=cobalt" />
 </div>
+---
