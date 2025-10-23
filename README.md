@@ -75,4 +75,3 @@
 <div>
   <img style="width:100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&theme=cobalt" />
 </div>
----
