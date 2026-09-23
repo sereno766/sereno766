@@ -53,7 +53,7 @@
   <a href="mailto:acalusereno@hotmail.com" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Email&logo=microsoft-outlook&label=&color=0078D4&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="outlook logo" />
   </a>
-  <a href="https://www.linkedin.com/in/acalu-sereno-machado-438146237/" target="_blank">
+  <a href="https://www.linkedin.com/in/acalu-sereno-machado-438146237/](https://www.linkedin.com/in/acalu-sereno-machado-da-silva-438146237/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" />
   </a>
 </div>
