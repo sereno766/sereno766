@@ -1,5 +1,7 @@
 <div align="center">
-  <img width="100%" src="./terminal.svg" alt="sereno@node:~$ — terminal" />
+  <img width="100%" src="./row1.svg" alt="optic.scan + core.chip" />
+  <img width="100%" src="./row2.svg" alt="biometric.id + dossier.sh" />
+  <img width="100%" src="./row3.svg" alt="man sereno + gh stats" />
 </div>
 
 <p align="center"><sub>

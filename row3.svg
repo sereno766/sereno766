@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1000 400" width="1000" height="400"><defs><clipPath id="lb"><rect x="636" y="74" width="348" height="8" rx="4"/></clipPath><style>
+text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace;white-space:pre}
+.win{animation:win .6s cubic-bezier(.22,.61,.36,1) both}
+@keyframes win{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.p{animation:pin .35s ease-out both}
+@keyframes pin{from{opacity:0}to{opacity:1}}
+.blink{animation:bl 1s steps(1) infinite}
+@keyframes bl{50%{opacity:0}}
+.soft{animation:sf 2.4s ease-in-out infinite}
+@keyframes sf{0%,100%{opacity:1}50%{opacity:.35}}
+.grow{transform-box:fill-box;transform-origin:left;animation:gr 1.2s cubic-bezier(.22,.61,.36,1) .8s both}@keyframes gr{from{transform:scaleX(0)}to{transform:scaleX(1)}}</style></defs><g class="win" style="animation-delay:0.00s"><rect x="0.5" y="0.5" width="599" height="399" rx="8" fill="#0d1117" stroke="#30363d"/><path d="M0.5 32V8.5a8 8 0 0 1 8-8H591.5a8 8 0 0 1 8 8V32Z" fill="#161b22"/><line x1="0" y1="32" x2="600" y2="32" stroke="#30363d"/><circle cx="18" cy="16.5" r="5.5" fill="#f85149"/><circle cx="36" cy="16.5" r="5.5" fill="#d29922"/><circle cx="54" cy="16.5" r="5.5" fill="#3fb950"/><text x="300.0" y="21" font-size="12.5" fill="#8b949e" text-anchor="middle">man sereno — bash</text></g>
+<text class="p" style="animation-delay:0.50s" x="16" y="58" font-size="13.5" fill="#8b949e" text-anchor="start" >SERENO(1)</text>
+<text class="p" style="animation-delay:0.56s" x="300" y="58" font-size="13.5" fill="#8b949e" text-anchor="middle" >BRAZIL NODE MANUAL</text>
+<text class="p" style="animation-delay:0.62s" x="584" y="58" font-size="13.5" fill="#8b949e" text-anchor="end" >SERENO(1)</text>
+<text class="p" style="animation-delay:0.68s" x="16" y="88" font-size="13.5" fill="#e6edf3" text-anchor="start" font-weight="700" >NAME</text>
+<text class="p" style="animation-delay:0.74s" x="52" y="109" font-size="13.5" fill="#e6edf3" text-anchor="start" >sereno - back-end developer // バックエンド</text>
+<text class="p" style="animation-delay:0.80s" x="16" y="139" font-size="13.5" fill="#e6edf3" text-anchor="start" font-weight="700" >SYNOPSIS</text>
+<text class="p" style="animation-delay:0.86s" x="52" y="160" font-size="13.5" fill="#e6edf3" text-anchor="start" ><tspan fill="#3fb950">sereno</tspan> [--<tspan text-decoration="underline">python</tspan>] [--<tspan text-decoration="underline">csharp</tspan>] [--<tspan text-decoration="underline">c</tspan>] [--<tspan text-decoration="underline">js</tspan>]</text>
+<text class="p" style="animation-delay:0.92s" x="52" y="181" font-size="13.5" fill="#e6edf3" text-anchor="start" >       [--<tspan text-decoration="underline">docker</tspan>] [--<tspan text-decoration="underline">linux</tspan>] [--<tspan text-decoration="underline">mysql</tspan>] [--<tspan text-decoration="underline">react</tspan>]</text>
+<text class="p" style="animation-delay:0.98s" x="16" y="211" font-size="13.5" fill="#e6edf3" text-anchor="start" font-weight="700" >DESCRIPTION</text>
+<text class="p" style="animation-delay:1.04s" x="52" y="232" font-size="13.5" fill="#e6edf3" text-anchor="start" >When you invoke SERENO, it normally does planning,</text>
+<text class="p" style="animation-delay:1.10s" x="52" y="253" font-size="13.5" fill="#e6edf3" text-anchor="start" >coding, containerizing and deploying.</text>
+<text class="p" style="animation-delay:1.16s" x="16" y="283" font-size="13.5" fill="#e6edf3" text-anchor="start" font-weight="700" >CONTACT</text>
+<text class="p" style="animation-delay:1.22s" x="52" y="304" font-size="13.5" fill="#8b949e" text-anchor="start" >discord  <tspan fill="#58a6ff">discord.com/users/258262798868545537</tspan></text>
+<text class="p" style="animation-delay:1.28s" x="52" y="325" font-size="13.5" fill="#8b949e" text-anchor="start" >email    <tspan fill="#58a6ff">acalusereno@hotmail.com</tspan></text>
+<text class="p" style="animation-delay:1.34s" x="52" y="346" font-size="13.5" fill="#8b949e" text-anchor="start" >linkedin <tspan fill="#58a6ff">linkedin.com/in/acalu-sereno-machado-da-silva</tspan></text>
+<g class="p" style="animation-delay:1.60s"><rect x="10" y="372" width="500" height="22" fill="#e6edf3"/><text x="16" y="388" font-size="13" fill="#0d1117" font-weight="700">Manual page sereno(1) line 1 (press q to quit)</text><rect class="blink" x="512" y="372" width="10" height="22" fill="#e6edf3"/></g>
+<g class="win" style="animation-delay:0.25s"><rect x="620.5" y="0.5" width="379" height="399" rx="8" fill="#0d1117" stroke="#30363d"/><path d="M620.5 32V8.5a8 8 0 0 1 8-8H991.5a8 8 0 0 1 8 8V32Z" fill="#161b22"/><line x1="620" y1="32" x2="1000" y2="32" stroke="#30363d"/><circle cx="638" cy="16.5" r="5.5" fill="#f85149"/><circle cx="656" cy="16.5" r="5.5" fill="#d29922"/><circle cx="674" cy="16.5" r="5.5" fill="#3fb950"/><text x="810.0" y="21" font-size="12.5" fill="#8b949e" text-anchor="middle">gh stats --user sereno766</text></g>
+<text class="p" style="animation-delay:0.60s" x="636" y="62" font-size="14" fill="#e6edf3" text-anchor="start" font-weight="700" >Languages</text>
+<g clip-path="url(#lb)"><g class="grow"><rect x="636.0" y="74" width="174.7" height="8" fill="#555555"/><rect x="810.2" y="74" width="102.7" height="8" fill="#3572A5"/><rect x="912.5" y="74" width="37.8" height="8" fill="#f34b7d"/><rect x="949.8" y="74" width="19.7" height="8" fill="#e34c26"/><rect x="969.0" y="74" width="9.1" height="8" fill="#427819"/><rect x="977.6" y="74" width="6.9" height="8" fill="#563d7c"/></g></g>
+<g class="p" style="animation-delay:1.00s"><circle cx="641" cy="104" r="5" fill="#555555"/><text x="652" y="108" font-size="12.5" fill="#e6edf3" font-weight="700">C <tspan fill="#8b949e" font-weight="400">50.07%</tspan></text></g>
+<g class="p" style="animation-delay:1.08s"><circle cx="817" cy="104" r="5" fill="#3572A5"/><text x="828" y="108" font-size="12.5" fill="#e6edf3" font-weight="700">Python <tspan fill="#8b949e" font-weight="400">29.38%</tspan></text></g>
+<g class="p" style="animation-delay:1.16s"><circle cx="641" cy="126" r="5" fill="#f34b7d"/><text x="652" y="130" font-size="12.5" fill="#e6edf3" font-weight="700">C++ <tspan fill="#8b949e" font-weight="400">10.71%</tspan></text></g>
+<g class="p" style="animation-delay:1.24s"><circle cx="817" cy="126" r="5" fill="#e34c26"/><text x="828" y="130" font-size="12.5" fill="#e6edf3" font-weight="700">HTML <tspan fill="#8b949e" font-weight="400">5.53%</tspan></text></g>
+<g class="p" style="animation-delay:1.32s"><circle cx="641" cy="148" r="5" fill="#427819"/><text x="652" y="152" font-size="12.5" fill="#e6edf3" font-weight="700">Makefile <tspan fill="#8b949e" font-weight="400">2.47%</tspan></text></g>
+<g class="p" style="animation-delay:1.40s"><circle cx="817" cy="148" r="5" fill="#563d7c"/><text x="828" y="152" font-size="12.5" fill="#e6edf3" font-weight="700">CSS <tspan fill="#8b949e" font-weight="400">1.84%</tspan></text></g>
+<line class="p" style="animation-delay:1.4s" x1="636" y1="186" x2="984" y2="186" stroke="#30363d"/>
+<text class="p" style="animation-delay:1.50s" x="636" y="214" font-size="14" fill="#e6edf3" text-anchor="start" font-weight="700" >Activity</text>
+<g class="p" style="animation-delay:1.60s"><rect x="636" y="233" width="12" height="12" rx="3" fill="#3fb950"/><text x="656" y="244" font-size="13" fill="#8b949e">commits</text><text x="984" y="244" font-size="13" fill="#e6edf3" font-weight="700" text-anchor="end">147</text></g>
+<g class="p" style="animation-delay:1.70s"><rect x="636" y="257" width="12" height="12" rx="3" fill="#bc8cff"/><text x="656" y="268" font-size="13" fill="#8b949e">pull requests</text><text x="984" y="268" font-size="13" fill="#e6edf3" font-weight="700" text-anchor="end">7</text></g>
+<g class="p" style="animation-delay:1.80s"><rect x="636" y="281" width="12" height="12" rx="3" fill="#d29922"/><text x="656" y="292" font-size="13" fill="#8b949e">issues</text><text x="984" y="292" font-size="13" fill="#e6edf3" font-weight="700" text-anchor="end">0</text></g>
+<g class="p" style="animation-delay:1.90s"><rect x="636" y="305" width="12" height="12" rx="3" fill="#d29922"/><text x="656" y="316" font-size="13" fill="#8b949e">stars earned</text><text x="984" y="316" font-size="13" fill="#e6edf3" font-weight="700" text-anchor="end">0</text></g>
+<g class="p" style="animation-delay:2.00s"><rect x="636" y="329" width="12" height="12" rx="3" fill="#58a6ff"/><text x="656" y="340" font-size="13" fill="#8b949e">contributed to</text><text x="984" y="340" font-size="13" fill="#e6edf3" font-weight="700" text-anchor="end">0</text></g>
+<text class="p" style="animation-delay:2.20s" x="636" y="382" font-size="13" fill="#3fb950" text-anchor="start" font-weight="700" >sereno@node:~$</text>
+<g class="p" style="animation-delay:2.2s"><rect class="blink" x="756" y="370" width="8" height="15" fill="#e6edf3"/></g></svg>
