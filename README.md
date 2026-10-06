@@ -1,77 +1,38 @@
-<!-- Header animado -->
-<div>
-  <img style="width:100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&fontSize=70&fontColor=FFFFFF&theme=cobalt" />
-</div>
-
-<h2 align="left">👋 Hi there! I'm Acalu Sereno, a back-end developer from Brazil 🇧🇷</h2>
-
-### 💻 Back-End Developer | Python, C#, Docker & SQL Enthusiast
-
+<!-- ═══════════ TERMINAL ═══════════ -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sereno766&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" width="auto" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sereno766&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" width="auto" alt="languages graph" />
+  <img width="100%" src="./assets/header.svg" alt="sereno@node:~$ neofetch" />
 </div>
 
-###
-
-<img align="right" height="150" src="https://media.tenor.com/SWg8Pi3TLSkAAAAM/pixel-art-computer.gif" alt="coding gif" />
-
-###
+### `sereno@node:~$ ls ./stack`
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="c logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="docker logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="30" alt="github logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="linux logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" height="30" alt="trello logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="30" alt="windows logo" />
+  <img src="https://skillicons.dev/icons?i=py,cs,js,react,c,docker,linux,mysql,bash,git,github,vscode&theme=dark&perline=12" alt="stack" />
 </div>
 
-###
+### `sereno@node:~$ cat /proc/stats`
 
 <div align="left">
-  <a href="https://discord.com/users/258262798868545537" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo" />
-  </a>
-  <a href="mailto:acalusereno@hotmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Email&logo=microsoft-outlook&label=&color=0078D4&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="outlook logo" />
-  </a>
-  <a href="https://www.linkedin.com/in/acalu-sereno-machado-da-silva-438146237/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" />
-  </a>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sereno766&show_icons=true&include_all_commits=true&count_private=true&bg_color=0b0b0b&title_color=4af626&icon_color=4af626&text_color=cfcfcf&border_color=2e2e2e&ring_color=4af626&locale=en" alt="stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=sereno766&layout=compact&langs_count=6&card_width=320&bg_color=0b0b0b&title_color=4af626&text_color=cfcfcf&border_color=2e2e2e" alt="top langs" />
 </div>
 
-<br clear="both" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=sereno766&bg_color=0b0b0b&color=cfcfcf&line=4af626&point=ff2a6d&area=true&area_color=4af626&hide_border=true&title_color=4af626" alt="activity graph" />
 
-<!-- Contribution snake (dark / light) -->
+### `sereno@node:~$ ./contato.sh`
+
+<div align="left">
+  <a href="https://discord.com/users/258262798868545537" target="_blank"><img src="https://img.shields.io/badge/discord-0b0b0b?style=flat-square&logo=discord&logoColor=4af626" height="26" alt="discord" /></a>
+  <a href="mailto:acalusereno@hotmail.com" target="_blank"><img src="https://img.shields.io/badge/email-0b0b0b?style=flat-square&logo=microsoftoutlook&logoColor=4af626" height="26" alt="email" /></a>
+  <a href="https://www.linkedin.com/in/acalu-sereno-machado-da-silva-438146237/" target="_blank"><img src="https://img.shields.io/badge/linkedin-0b0b0b?style=flat-square&logo=linkedin&logoColor=4af626" height="26" alt="linkedin" /></a>
+</div>
+
+### `sereno@node:~$ tail -f contributions.log`
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sereno766/sereno766/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sereno766/sereno766/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/sereno766/sereno766/output/github-contribution-grid-snake.svg">
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/sereno766/sereno766/output/github-contribution-grid-snake.svg">
 </picture>
 
-###
-
-<p align="center">💻 Feito com ❤️ por <a href="https://github.com/sereno766">Acalu Sereno</a></p>
-
-<!-- Footer animado -->
-<div>
-  <img style="width:100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&theme=cobalt" />
-</div>
+<!-- ═══════════ TMUX STATUS BAR ═══════════ -->
+<img width="100%" src="./assets/footer.svg" alt="tmux status" />
